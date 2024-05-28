@@ -24,11 +24,11 @@ function App()
             className="p-2 rounded-md shadow">
                 <h2 className="font-medium">Hey !☁️</h2>
                 <p className="text-xs">Do you want to know the weather Report:)</p>
-                <input onChange={handlechange} className="rounded-md h-6 text-sm p-1 mt-2 ml-7 outline-none" 
+                <input onChange={handlechange} className="rounded-md h-6 text-sm p-1 mt-2 outline-none" 
                 placeholder="Enter the City Name">
                 </input>
                 <br/>
-                <button onClick={getweather} className="bg-black text-white rounded-md p-1 mt-2 text-xs ml-20">
+                <button onClick={getweather} className="bg-black text-white rounded-md p-1 mt-2 text-xs">
                 Get Report⚡</button>
             
             <p className="text-xs mt-2">Degree:{deg} | City:{city} | Weather:{desc}</p>
